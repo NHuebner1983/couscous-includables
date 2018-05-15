@@ -1,0 +1,20 @@
+@Yes = Yes
+@No = No
+@Optional = Optional
+@int = Integer
+@string = String
+
+@RemindAPIKey = Don't have an API Key yet? [Click here to get one.](http://subscriptionsonly.com/sellers?get-api-key=1)
+
+@DataSend = Data to send in your request:
+@DataReceive = Data you will receive in the response:
+
+@APIKey = [API Key](http://subscriptionsonly.com/sellers?get-api-key=1)
+@APIKeyDescription = Your SubscriptionsOnly API Key.
+
+@SubscriptionID = Subscription ID
+@SubscriptionIDDescription  = The Subscription's unique ID your subscribers are subscribed to.
+
+@SubscriberID = Subscriber ID
+@SubscriberIDDescription = The Subscriber's unique ID.
+

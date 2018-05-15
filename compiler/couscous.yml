@@ -1,0 +1,39 @@
+template:
+    directory: templates/Template-ReadTheDocs
+
+# Base URL of documentation
+baseUrl: /
+
+# Title and Subtitle for website
+title: SubscriptionsOnly.com
+subTitle: API Documentation
+
+scripts:
+    before:
+      - php scripts/before.php
+    after:
+      - php scripts/after.php
+
+# Markdown folders (containing .MD files)
+include:
+    - markdown
+
+# specify folders to be ignored by the scanner
+exclude:
+    - vendor
+
+# The left menu bar
+menu:
+    items:
+        home:
+            text: Introduction
+            relativeUrl: intro/index.html
+        installation:
+            text: Installation
+            relativeUrl: intro/installation.html
+        getting-started:
+            text: Configuration
+            relativeUrl: intro/configuration.html
+        api:
+            text: Api
+            relativeUrl: api/api.html
