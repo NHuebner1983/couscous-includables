@@ -50,11 +50,11 @@ Open the file: `compiler/markdown/api/constants.mdd`
 @APIKey = [API Key](http://somewebsite.com/sellers?get-api-key=1)
 @APIKeyDescription = Your Subscription API Key.
 
-@SubscriptionID = Subscription ID
-@SubscriptionIDDescription  = The Subscription's unique ID your subscribers are subscribed to.
+@AccountID = Subscription ID
+@AccountIDDescription  = The Subscription's unique ID your subscribers are subscribed to.
 
-@SubscriberID = Subscriber ID
-@SubscriberIDDescription = The Subscriber's unique ID.
+@CourseID = Subscriber ID
+@CourseIDDescription = The Subscriber's unique ID.
 ```
 
 # How to use compiler/markdown/api/constants.mdd
@@ -71,13 +71,13 @@ To retrieve a list of subscribers you must have the following information availa
 | Fields   |      Description    | Required |
 |----------|---------------------|:----------:|
 | [@APIKey]  |  [@APIKeyDescription] | [@Yes] |
-| [@SubscriptionID] | [@SubscriptionIDDescription] | [@Yes] |
+| [@AccountID] | [@AccountIDDescription] | [@Yes] |
 
 ##### [@DataReceive]
 
 | Fields   |      Description    | Type |
 |----------|---------------------|:------:|
-| [@SubscriberID] | [@SubscriberIDDescription] | [@int] |
+| [@CourseID] | [@CourseIDDescription] | [@int] |
 ```
 
 As you can see, we can access our constants by using `[@ConstantName]`. When you use constants, it makes it easier in the future to make corrections and quickly write your documentation. It also allows your Q/A or content management team to restructure or change verbiage in sentences without going through all of your final MD files.

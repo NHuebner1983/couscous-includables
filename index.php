@@ -1,1 +1,1 @@
-<?php header('Location: /intro/index.html'); exit;
+<?php header('Location: /docs/intro/index.html'); exit;

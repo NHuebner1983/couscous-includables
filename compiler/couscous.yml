@@ -2,11 +2,11 @@ template:
     directory: templates/Template-ReadTheDocs
 
 # Base URL of documentation
-baseUrl: /
+baseUrl: /docs/
 
 # Title and Subtitle for website
-title: SubscriptionsOnly.com
-subTitle: API Documentation
+title: StripesEducation.com
+subTitle: Documentation
 
 scripts:
     before:

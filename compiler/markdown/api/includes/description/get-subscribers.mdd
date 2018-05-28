@@ -1,16 +1,16 @@
 ### Get Subscribers
 
-To retrieve a list of subscribers you must have the following information available. [@RemindAPIKey]
+To retrieve a list of subscribers you must have the following information available.
 
 #### [@DataSend]
 
 | Fields   |      Description    | Required |
 |----------|---------------------|:----------:|
 | [@APIKey]  |  [@APIKeyDescription] | [@Yes] |
-| [@SubscriptionID] | [@SubscriptionIDDescription] | [@Yes] |
+| [@AccountID] | [@AccountIDDescription] | [@Yes] |
 
 ##### [@DataReceive]
 
 | Fields   |      Description    | Type |
 |----------|---------------------|:------:|
-| [@SubscriberID] | [@SubscriberIDDescription] | [@int] |
+| [@CourseID] | [@CourseIDDescription] | [@int] |
